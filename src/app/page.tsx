@@ -1,11 +1,10 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 
-export default function Home() {
+export default () => {
   return (
-    <main className={styles.main}>
+    <main>
       Hello world, auto deploy!
       <h1>This will test the repeat deploy</h1>
+      <h1>This will check the default</h1>
     </main>
   )
 }
